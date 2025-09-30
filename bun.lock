@@ -1,0 +1,17 @@
+{
+  "lockfileVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "bunorm",
+      "devDependencies": {
+        "bun-types": "^0.5.7",
+        "typescript": "^5.0.2",
+      },
+    },
+  },
+  "packages": {
+    "bun-types": ["bun-types@0.5.7", "", {}, "sha512-79ualR6PIZYTbALgsUxZXlAhkz0M7h7QMsXWn/eX+VOOCX3bPA9y0Pywu4MUEWOK8cK/JhnAODMqZfhCb911nw=="],
+
+    "typescript": ["typescript@5.0.2", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-wVORMBGO/FAs/++blGNeAVdbNKtIh1rbBL2EyQ1+J9lClJ93KiiKe8PmFIVdXhHcyv44SL9oglmfeSsndo0jRw=="],
+  }
+}
